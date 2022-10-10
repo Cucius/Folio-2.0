@@ -3,12 +3,20 @@ import React from "react";
 const Home = () => {
   return (
     <React.Fragment>
-      <div className="relative flex-shrink-0 snap-start bg-amber-600 w-screen h-screen flex items-center justify-center text-8xl clip-path-arrow">
+      {/* <div className="relative flex-shrink-0 snap-start bg-amber-600 w-screen h-screen flex items-center justify-center text-8xl clip-path-arrow"> */}
+      <div
+        className="flex snap-start
+                    items-center justify-center
+                  bg-gradient-to-r from-moss to-veronese text-8xl
+                    w-screen h-screen"
+      >
         Home
-        <h1>Hello World!~</h1>
-        <h2>This Is my practice disaster area</h2>
+        <div className="container mx-auto">
+          <h1>Hello World!~</h1>
+          <h2>This Is my practice disaster area</h2>
+        </div>
       </div>
-      <div className=" flex text-6xl bg-teal-600 flex-shrink-0 h-screen w-screen justify-center" />
+      {/* <div className=" flex text-6xl bg-teal-600 flex-shrink-0 h-screen w-screen justify-center" /> */}
     </React.Fragment>
   );
 };

@@ -11,7 +11,7 @@ module.exports = {
         veronese: "#16a085",
         moss: "#78924b",
         salsa: "#f05d5e",
-        alice: "e7ecef",
+        alice: "#e7ecef",
         gray: colors.neutral,
         gray: {
           900: "#12181b",

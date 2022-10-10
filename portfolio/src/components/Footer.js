@@ -4,8 +4,8 @@ const Footer = () => {
   return (
     <div
       className="fixed z-50 bottom-0  w-screen h-12
-                 flex flex-row  justify-center
-                 bg-indigo-900
+                 flex  justify-center 
+                 bg-gray-500
                  shadow-lg"
     >
       <FooterIcon icon={<BsGithub size="18" />} text="GitHub" />
