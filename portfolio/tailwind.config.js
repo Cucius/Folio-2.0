@@ -6,6 +6,9 @@ module.exports = {
   darkMode: "class", // or 'media' or 'class'
   theme: {
     extend: {
+      boxShadow: {
+        card: "-1rem 0 3rem #000",
+      },
       colors: {
         jonquil: "#f4d03f",
         veronese: "#16a085",
@@ -32,5 +35,5 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [require("tailwind-clip-path")],
+  plugins: [require("tailwind-clip-path"), require("tailwind-scrollbar")({ nocompatible: true })],
 };

@@ -10,7 +10,7 @@ const Projects = () => {
                     w-screen h-screen"
     >
       Projects
-      <div className="container mx-auto">{/* <ProjectCards /> */}</div>
+      <div className="container mx-auto ">{<ProjectCards />}</div>
     </div>
   );
 };
