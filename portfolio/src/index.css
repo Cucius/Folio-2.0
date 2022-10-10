@@ -1,5 +1,71 @@
 @tailwind base;
-
 @tailwind components;
-
 @tailwind utilities;
+
+@layer components {
+  .sidebar-icon {
+    @apply relative flex items-center justify-center
+            h-12 w-12 mt-2 mb-2 mx-auto shadow-lg
+            bg-gray-800 text-rose-500
+            hover:bg-rose-600 hover:text-jonquil
+            rounded-3xl hover:rounded-xl
+            transition-all duration-300 ease-linear;
+  }
+  .sidebar-tooltip {
+    @apply absolute w-auto p-2 m-2 min-w-max left-14
+    rounded-md shadow-md
+    text-white bg-gray-900
+    text-xs font-bold
+    transition-all duration-100 scale-0 origin-left;
+  }
+  .footer-icon {
+    @apply relative flex items-center justify-center
+            h-8 w-8 mt-2 mb-2 mx-auto shadow-lg
+            bg-gray-800 text-teal-500
+            hover:bg-teal-600 hover:text-salsa
+            rounded-3xl hover:rounded-xl
+            transition-all duration-300 ease-linear;
+  }
+  .footer-tooltip {
+    @apply absolute w-auto p-2 m-2 min-w-max left-14
+    rounded-md shadow-md
+    text-white bg-gray-900
+    text-xs font-bold
+    transition-all duration-100 scale-0 origin-left;
+  }
+}
+
+/* .light {
+  --bg: var(--gray0);
+  --text: var(--gray6);
+  --border-color: var(--green);
+  --bg-solar: var(--gold);
+}
+.dark {
+  --bg: var(--gray5);
+  --text: var(--gray0);
+  --border-color: var(--forest);
+  --bg-solar: var(--salsa);
+} */
+/* .solar {
+  --gray0: #fbffd4;
+  --gray1: #f7f8d0;
+  --gray2: #b6f880;
+  --gray3: #5ec72d;
+  --gray4: #3ea565;
+  --gray5: #005368;
+  --gray6: #003d4c;
+} */
+/* 
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--text);
+  background: var(--bg);
+  transition: background 500ms ease-in-out, color 1000ms ease-in-out;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+} */
