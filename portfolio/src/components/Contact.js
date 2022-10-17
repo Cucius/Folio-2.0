@@ -34,9 +34,10 @@ const Contact = () => {
   }
   return (
     <div
+      id="contact"
       className="flex snap-start
     items-center justify-center
-    bg-gradient-to-r from-moss to-veronese text-8xl
+    bg-gradient-to-r from-moss to-veronese text-6xl
     w-screen h-screen"
     >
       <div
@@ -44,10 +45,10 @@ const Contact = () => {
       items-center justify-center"
       >
         <div className="mb-3 pt-0">
-          <h3 className="text-center text-gray-400 text-s">Contact Us</h3>
+          <h3 className="text-center text-gray-800 text-s">Contact Me</h3>
         </div>
-        <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4" action={FORM_ENDPOINT} onSubmit={handleSubmit} method="POST" target="_blank">
-          <div className="mb-3 pt-0">
+        <form className="bg-gray-600 shadow-md rounded px-32 pt-3 pb-8 mb-4 w-full" action={FORM_ENDPOINT} onSubmit={handleSubmit} method="POST" target="_blank">
+          <div className="mb-3 pt-0 ">
             <input type="text" placeholder="Your name" name="name" className="px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full" required />
           </div>
           <div className="mb-3 pt-0">

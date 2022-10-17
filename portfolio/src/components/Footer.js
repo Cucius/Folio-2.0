@@ -2,15 +2,21 @@ import { BsGithub, BsLinkedin } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <div
-      className="fixed z-50 bottom-0  w-screen h-12
+    <>
+      <div
+        className="fixed z-50 bottom-0  w-screen h-12
                  flex  justify-center 
                  bg-gray-500
                  shadow-lg"
-    >
-      <FooterIcon icon={<BsGithub size="18" />} text="GitHub" />
-      <FooterIcon icon={<BsLinkedin size="18" />} text="LinkedIn" />
-    </div>
+      >
+        <a href="http://github.com/Cucius" target={"_blank"}>
+          <FooterIcon icon={<BsGithub size="18" />} text="GitHub" />
+        </a>
+        <a href="https://linkedin.com/in/chase-r-metherd/" target={"_blank"}>
+          <FooterIcon icon={<BsLinkedin size="18" />} text="LinkedIn" />
+        </a>
+      </div>
+    </>
   );
 };
 

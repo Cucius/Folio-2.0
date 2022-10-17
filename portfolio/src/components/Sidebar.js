@@ -2,24 +2,36 @@ import { GoHome } from "react-icons/go";
 import { HiOutlineMail } from "react-icons/hi";
 // import { IoFlashOutline, IoSunnyOutline, IoMoonOutline } from "react-icons/io5";
 import { GiFlatHammer, Gi3DGlasses } from "react-icons/gi";
+// import { Link, Outlet } from "react-router-dom";
 
 const Sidebar = () => {
   return (
-    <nav
-      className="fixed z-50 top-0  w-screen h-16
+    <>
+      <nav
+        className="fixed z-50 top-0  w-screen h-16
                  flex flex-row  justify-between
                  bg-gray-500 text-secondary shadow-lg"
-    >
-      <SidebarIcon icon={<GoHome size="32" />} text="Home" />
-      <SidebarIcon icon={<GiFlatHammer size="32" />} text="Projects" />
-      <SidebarIcon icon={<Gi3DGlasses size="32" />} text="About Me" />
-      <SidebarIcon icon={<HiOutlineMail size="32" />} text="Contact Me" />
-      {/* <div className="group flex m-1">
+      >
+        <a href="#home">
+          <SidebarIcon icon={<GoHome size="32" />} text="Home" />
+        </a>
+        <a href="#projects">
+          <SidebarIcon icon={<GiFlatHammer size="32" />} text="Projects" />
+        </a>
+        <a href="#about">
+          <SidebarIcon icon={<Gi3DGlasses size="32" />} text="About Me" />
+        </a>
+        <a href="#contact">
+          <SidebarIcon icon={<HiOutlineMail size="32" />} text="Contact Me" />
+        </a>
+        {/* <div className="group flex m-1">
         <SidebarIcon icon={<IoFlashOutline size="24" />} />
         <SidebarIcon icon={<IoSunnyOutline size="24" />} />
         <SidebarIcon icon={<IoMoonOutline size="24" />} />
       </div> */}
-    </nav>
+      </nav>
+      {/* <Outlet /> */}
+    </>
   );
 };
 

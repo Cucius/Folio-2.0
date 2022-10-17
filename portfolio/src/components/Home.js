@@ -5,12 +5,12 @@ const Home = () => {
     <React.Fragment>
       {/* <div className="relative flex-shrink-0 snap-start bg-amber-600 w-screen h-screen flex items-center justify-center text-8xl clip-path-arrow"> */}
       <div
+        id="home"
         className="flex snap-start
                     items-center justify-center
                   bg-gradient-to-r from-moss to-veronese text-8xl
                     w-screen h-screen"
       >
-        Home
         <div className="container mx-auto">
           <h1>Hello World!~</h1>
           <h2>This Is my practice disaster area</h2>

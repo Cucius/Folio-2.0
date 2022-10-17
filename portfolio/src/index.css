@@ -40,10 +40,10 @@
     @apply w-[10px] h-[10px];
   }
   .card-container::-webkit-scrollbar-thumb {
-    @apply bg-moss shadow-inner rounded-sm;
+    @apply bg-gradient-to-r from-moss to-veronese shadow-inner rounded-sm;
   }
   .card-container::-webkit-scrollbar-track {
-    @apply bg-gradient-to-r from-salsa to-jonquil;
+    @apply bg-gradient-to-r from-moss to-veronese;
   }
   .card:hover {
     @apply -translate-y-4;
@@ -76,7 +76,7 @@
 }
 
 .card-header h2:hover {
-  background: linear-gradient(90deg, #ff8a00, #e52e71);
+  background: linear-gradient(90deg, #ff8a00, #f43f5e);
   text-shadow: none;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
