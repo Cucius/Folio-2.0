@@ -9,7 +9,7 @@ const About = () => {
                   w-screen h-screen"
     >
       <img href="#" />
-      <p className="text-4xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris viverra leo in nisi venenatis tincidunt. Maecenas efficitur augue nibh, et eleifend metus egestas ut. Pellentesque nec erat ut nibh lacinia rhoncus eget id lorem. Curabitur blandit, orci eu ultrices ornare, mi lectus sagittis ante, auctor commodo quam magna sed augue. Sed non elit vel tellus aliquam ornare. In hac habitasse.</p>
+      <p className="text-4xl">Hello! My name is Chase and I was born and raised in Elizabeth, CO. Since a young age I have enjoyed learning how things work. I am certain that is what has drawn me to coding and where I am today. My biggest flaw is underestimating what it takes to accomplish my plans.</p>
     </div>
   );
 };

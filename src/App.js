@@ -8,7 +8,7 @@ import React from "react";
 
 function App() {
   return (
-    <React.Fragment>
+    <>
       <header>
         <Sidebar />
       </header>
@@ -34,7 +34,7 @@ function App() {
       <footer>
         <Footer />
       </footer>
-    </React.Fragment>
+    </>
   );
 }
 
