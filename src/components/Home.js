@@ -12,8 +12,8 @@ const Home = () => {
                     w-screen h-screen"
       >
         <div className="container mx-auto">
-          <h1>Hello World!~</h1>
-          <h2>This Is my practice disaster area</h2>
+          <h1>Hello World!</h1>
+        
         </div>
       </div>
       {/* <div className=" flex text-6xl bg-teal-600 flex-shrink-0 h-screen w-screen justify-center" /> */}
