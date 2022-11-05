@@ -6,7 +6,7 @@ const Footer = () => {
       <div
         className="fixed z-50 bottom-0  w-screen h-12
                  flex  justify-center 
-                 bg-gray-500
+                 bg-Lynch
                  shadow-lg"
       >
         <a href="http://github.com/Cucius" target={"_blank"}>

@@ -8,7 +8,7 @@ const Home = () => {
         id="home"
         className="flex snap-start
                     items-center justify-center
-                  bg-gradient-to-r from-moss to-veronese text-8xl
+                  bg-gradient-to-tr from-Baltic to-veronese text-8xl
                     w-screen h-screen"
       >
         <div className="container mx-auto">

@@ -3,11 +3,17 @@
 @tailwind utilities;
 
 @layer components {
+  body{
+    @apply flex snap-start
+    items-center justify-center
+    bg-gradient-to-br from-Baltic to-veronese text-6xl
+    w-screen h-screen bg-fixed bg-center bg-no-repeat
+  }
   .sidebar-icon {
     @apply relative flex items-center justify-center
             h-12 w-12 mt-2 mb-2 mx-auto shadow-lg
-            bg-gray-800 text-rose-500
-            hover:bg-rose-600 hover:text-jonquil
+            bg-gray-800 text-moss
+            hover:bg-moss hover:text-Ash
             rounded-3xl hover:rounded-xl
             transition-all duration-300 ease-linear;
   }
@@ -39,12 +45,12 @@
   .card-container::-webkit-scrollbar {
     @apply w-[10px] h-[10px];
   }
-  .card-container::-webkit-scrollbar-thumb {
-    @apply bg-gradient-to-r from-moss to-veronese shadow-inner rounded-sm;
+  /* .card-container::-webkit-scrollbar-thumb {
+    @apply bg-gradient-to-br from-Baltic to-veronese shadow-inner rounded-sm;
   }
   .card-container::-webkit-scrollbar-track {
-    @apply bg-gradient-to-r from-moss to-veronese;
-  }
+    @apply bg-gradient-to-br from-Baltic to-veronese;
+  } */
   .card:hover {
     @apply -translate-y-4;
   }

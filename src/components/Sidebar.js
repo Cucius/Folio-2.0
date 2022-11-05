@@ -10,7 +10,7 @@ const Sidebar = () => {
       <nav
         className="fixed z-50 top-0  w-screen h-16
                  flex flex-row  justify-between
-                 bg-gray-500 text-secondary shadow-lg"
+                 bg-Lynch text-secondary shadow-lg"
       >
         <a href="#home">
           <SidebarIcon icon={<GoHome size="32" />} text="Home" />

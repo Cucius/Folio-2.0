@@ -36,9 +36,9 @@ const Contact = () => {
     <div
       id="contact"
       className="flex snap-start
-    items-center justify-center
-    bg-gradient-to-r from-moss to-veronese text-6xl
-    w-screen h-screen"
+      items-center justify-center
+    bg-gradient-to-br from-Baltic to-veronese text-8xl
+      w-screen h-screen"
     >
       <div
         className="h-screen flex flex-col 

@@ -15,6 +15,10 @@ module.exports = {
         moss: "#78924b",
         salsa: "#f05d5e",
         alice: "#e7ecef",
+        Baltic: "#28272A",
+        Ash: "#CAC3B8",
+        Granny: "#839A9B",
+        Lynch: "#6B8996",
         gray: colors.neutral,
         gray: {
           900: "#12181b",
