@@ -7,7 +7,7 @@ const Projects = () => {
       id="projects"
       className="flex snap-start
                     items-center justify-center
-                    bg-gradient-to-br from-Baltic to-veronese text-8xl
+
                     w-screen h-screen"
     >
       <div className="container mx-auto ">{<ProjectCards />}</div>

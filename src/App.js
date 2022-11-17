@@ -13,13 +13,6 @@ function App() {
         <Sidebar />
       </header>
 
-      {/* <section
-          className="flex
-          scroll-smooth 
-          snap-x snap-mandatory
-          h-screen w-screen 
-          overflow-y-hidden overflow-scroll"
-        >  */}
       <section
         className="scroll-smooth 
         snap-y snap-mandatory

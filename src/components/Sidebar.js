@@ -8,21 +8,21 @@ const Sidebar = () => {
   return (
     <>
       <nav
-        className="fixed z-50 top-0  w-screen h-16
+        className="fixed z-50 top-0  w-screen h-12
                  flex flex-row  justify-between
                  bg-Lynch text-secondary shadow-lg"
       >
         <a href="#home">
-          <SidebarIcon icon={<GoHome size="32" />} text="Home" />
+          <SidebarIcon icon={<GoHome size="24" />} text="Home" />
         </a>
         <a href="#projects">
-          <SidebarIcon icon={<GiFlatHammer size="32" />} text="Projects" />
+          <SidebarIcon icon={<GiFlatHammer size="24" />} text="Projects" />
         </a>
         <a href="#about">
-          <SidebarIcon icon={<Gi3DGlasses size="32" />} text="About Me" />
+          <SidebarIcon icon={<Gi3DGlasses size="24" />} text="About Me" />
         </a>
         <a href="#contact">
-          <SidebarIcon icon={<HiOutlineMail size="32" />} text="Contact Me" />
+          <SidebarIcon icon={<HiOutlineMail size="24" />} text="Contact Me" />
         </a>
         {/* <div className="group flex m-1">
         <SidebarIcon icon={<IoFlashOutline size="24" />} />
