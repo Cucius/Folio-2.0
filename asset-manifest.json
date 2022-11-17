@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Folio-2.0/static/css/main.cf3464d2.css",
-    "main.js": "/Folio-2.0/static/js/main.55242c72.js",
+    "main.css": "/Folio-2.0/static/css/main.802a64c5.css",
+    "main.js": "/Folio-2.0/static/js/main.11dfc27e.js",
     "static/media/Me.jpg": "/Folio-2.0/static/media/Me.e50c8d5cd07c8a57d1af.jpg",
     "static/media/android-chrome-192x192.png": "/Folio-2.0/static/media/android-chrome-192x192.2a09798cad6c6e1cea72.png",
     "index.html": "/Folio-2.0/index.html",
-    "main.cf3464d2.css.map": "/Folio-2.0/static/css/main.cf3464d2.css.map",
-    "main.55242c72.js.map": "/Folio-2.0/static/js/main.55242c72.js.map"
+    "main.802a64c5.css.map": "/Folio-2.0/static/css/main.802a64c5.css.map",
+    "main.11dfc27e.js.map": "/Folio-2.0/static/js/main.11dfc27e.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf3464d2.css",
-    "static/js/main.55242c72.js"
+    "static/css/main.802a64c5.css",
+    "static/js/main.11dfc27e.js"
   ]
 }
